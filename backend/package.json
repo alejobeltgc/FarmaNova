@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js",
+    "evaluar": "node scripts/evaluar.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}

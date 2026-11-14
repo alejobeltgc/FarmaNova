@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+.DS_Store
+entrega/*.docx
+herramientas/salida/
+herramientas/node_modules/
+
+# No se publican en el repositorio (decisión del grupo)
+.claude/
+entrega/
+herramientas/
+docs/
+PROMPT_FASE4.md
+LEEME.md
